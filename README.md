@@ -53,7 +53,7 @@ You can use `wsync check` to check if the config file is valid.
 
 ### 2.sync/watch
 
-`wsync sync` will just sync files once
+`wsync sync` will sync all files once
 
 `wsync watch` will watch for changes and sync automatically
 

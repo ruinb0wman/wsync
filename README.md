@@ -1,5 +1,7 @@
 # wsync
 
+A cli tool for sync file/folder from wsl to host(windows)
+
 ## install
 
 ```sh

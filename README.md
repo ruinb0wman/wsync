@@ -51,7 +51,7 @@ You can just run `wsync init` to create a template of `.sync.config.json` and mo
 
 You can use `wsync check` to check if the config file is valid.
 
-### 2.sync/watch
+### 3.sync/watch
 
 `wsync sync` will sync all files once
 

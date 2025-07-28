@@ -28,3 +28,32 @@ Commands:
   check           Validate the .sync.config.json file
   help [command]  display help for command
 ```
+
+### 1. config
+
+You can just run `wsync init` to create a template of `.sync.config.json` and modify it.
+
+```
+{
+  "include": [
+    "src/**/*",
+    "public/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "target": "/mnt/d/Workspace/yourproject/"
+}
+```
+
+### 2.check
+
+You can use `wsync check` to check if the config file is valid.
+
+### 2.sync/watch
+
+`wsync sync` will just sync files once
+
+`wsync watch` will watch for changes and sync automatically
+

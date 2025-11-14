@@ -27,4 +27,3 @@ program
   .action(checkConfig);
 
 program.parse(process.argv);
-

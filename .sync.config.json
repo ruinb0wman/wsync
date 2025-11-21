@@ -1,0 +1,15 @@
+{
+  "include": [
+    "**/*.js",
+    "**/*.json",
+    "**/*.md"
+  ],
+  "exclude": [
+    "node_modules/**",
+    ".git/**",
+    ".aider.tags.cache.v4/**",
+    "package-lock.json",
+    "test-target/**"
+  ],
+  "target": "./test-target"
+}

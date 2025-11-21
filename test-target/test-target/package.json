@@ -1,0 +1,25 @@
+{
+  "name": "wsync",
+  "version": "1.0.0",
+  "description": "A tool to sync WSL files to Windows",
+  "main": "bin/wsync.js",
+  "bin": {
+    "wsync": "./bin/wsync.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wsl",
+    "sync",
+    "windows"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "commander": "^9.4.1",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.3"
+  }
+}
